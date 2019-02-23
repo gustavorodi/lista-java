@@ -27,10 +27,10 @@ public class Exercicio3 {
 			break;
 		case "c":
 			for (Integer i = 0; i < numeroDigitado; i++) {
-				for (Integer e = 1; e <= i+1; e++) {
+				for (Integer e = numeroDigitado; e <= i+1; e--) {
 					System.out.print(" ");
 				}
-					for (Integer x = numeroDigitado; x >= i+1; x--) {
+					for (Integer x = 1; x >= i+1; x++) {
 						
 						System.out.print("*");
 					}
