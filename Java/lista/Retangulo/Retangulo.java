@@ -6,7 +6,7 @@ public class Retangulo{
     private Double area;
     private Double perimetro;
 
-    public Retangulo(String comprimento,String largura){
+    public Retangulo(Double comprimento,Double largura){
         this.comprimento    =    Double.valueOf(comprimento);
         this.largura        =    Double.valueOf(largura);
     }
