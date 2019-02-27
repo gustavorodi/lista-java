@@ -11,4 +11,15 @@ public class Circulo implements AreCalculavel{
         resposta_Circulo = Math.PI * (diametro/2);
         return resposta_Circulo;
     }
+
+    public Double getDiametro()
+	{
+		return this.diametro;
+	}
+
+	public void setDiametro(Double diametro)
+	{
+		this.diametro = diametro;
+	}
+
 }
