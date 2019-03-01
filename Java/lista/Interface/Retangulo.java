@@ -2,15 +2,15 @@ public class Retangulo implements AreaCalculavel{
     private Double base;
     private Double altura;
 
-    public retangulo(Double base, Double altura){
-        this.base   = base;
-        this.altura = altura;
+    public Retangulo(Double base, Double altura){
+        this.base   = (base);
+        this.altura = (altura);
     }
 
     @Override
     public Double calcularArea(){
         Double resposta_Retangulo;
-        resposta_Retangulo = base * comprimento;
+        resposta_Retangulo = base * altura;
         return resposta_Retangulo;
         
     }
