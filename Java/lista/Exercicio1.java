@@ -12,10 +12,10 @@ public class Exercicio1
 		Integer anos = Integer.valueOf(args[0]);
 		Long populacaoM = 7600000000L;
 		Double resultadoT;
-        Long resultadoF;
+        	Long resultadoF;
 		
-        resultadoT = populacaoM * (Double) Math.pow(1.012, anos);
-        resultadoF = Math.round(resultadoT);
-        System.out.println(resultadoF);
+        	resultadoT = populacaoM * (Double) Math.pow(1.012, anos);
+        	resultadoF = Math.round(resultadoT);
+        	System.out.println(resultadoF);
 	}
 }
